@@ -11,7 +11,7 @@ const ALCHEMY_URL = `https://polygon-amoy.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 //const ALCHEMY_URL = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 //const ALCHEMY_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
 
-const STUNT_WALLET_PRIVATE_KEY = process.env.STUNT_WALLET_PRIVATE_KEY;
+const MIAACCOUNT_KEY = process.env.MIAACCOUNT_KEY;
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
 
 module.exports = {
