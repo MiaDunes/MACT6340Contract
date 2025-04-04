@@ -88,7 +88,7 @@ contract MBCreativeNFTContract is
         return i_max_tokens;
     }
 
-    function getPrice() public view returns (uint256) {
+    function getMintPrice() public view returns (uint256) {
         return i_mint_price;
     }
 
