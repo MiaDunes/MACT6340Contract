@@ -8,7 +8,7 @@ async function main() {
       max_tokens: 3,
       base_uri:
         "https://ipfs.io/ipfs/QmTwiGMeNjhrECN5tHkSEN7jHDEQ3tvFzeCXF4f3EhZJzv",
-      royaltyArtist: process.env.STUNT_WALLET_ADDRESS,
+      royaltyArtist: process.env.MIAACCOUNT_KEY,
       royaltyBasis: 500,
     };
     const MBCreativeNFTContractFactory = await ethers.getContractFactory(
